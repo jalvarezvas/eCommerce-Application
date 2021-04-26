@@ -52,3 +52,8 @@
 2021-04-26T11:50:36.564+0200 INFO No active profile set, falling back to default profiles: default
 2021-04-26T11:50:39.757+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
 2021-04-26T11:50:40.638+0200 INFO Started SareetaApplication in 4.36 seconds (JVM running for 5.419)
+2021-04-26T12:06:42.008+0200 INFO Starting SareetaApplication on DESKTOP-93LS2HQ with PID 6160 (D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code\target\classes started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application)
+2021-04-26T12:06:42.013+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-26T12:06:42.015+0200 INFO No active profile set, falling back to default profiles: default
+2021-04-26T12:06:44.806+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-04-26T12:06:45.280+0200 INFO Started SareetaApplication in 3.523 seconds (JVM running for 4.26)
