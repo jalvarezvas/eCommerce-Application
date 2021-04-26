@@ -35,7 +35,7 @@ public class UserController {
 
         Optional<User> user = userRepository.findById(id);
 
-        if (user == null) {
+        if (user.isEmpty()) {
             log.error("UserController - findById() User not found");
             return ResponseEntity.notFound().build();
         } else {
@@ -67,7 +67,7 @@ public class UserController {
         log.info("UserController - createUser() User name set with '" + createUserRequest.getUsername() + "'");
 
         if (createUserRequest.getPassword().length() < 10 || !createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
-            log.error("UserController - createUser() Invalid password: {}", createUserRequest.getPassword());
+            log.error("UserController - createUser() KO, Invalid password: {}", createUserRequest.getPassword());
             return ResponseEntity.badRequest().build();
         }
 

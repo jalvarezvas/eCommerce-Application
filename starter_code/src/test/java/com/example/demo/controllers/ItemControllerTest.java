@@ -12,8 +12,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -66,6 +65,16 @@ public class ItemControllerTest {
     }
 
     @Test
+    public void find_by_id_user_not_found() {
+        final ResponseEntity<Item> response = itemController.getItemById(-10L);
+        assertNotNull(response);
+        assertEquals(404, response.getStatusCodeValue());
+
+        Item item = response.getBody();
+        assertNull(item);
+    }
+
+    @Test
     public void find_by_user_name_happy_path() {
         List<Item> items = getItemList();
         when(mockItemRepository.findByName("Square Widget")).thenReturn(items);
@@ -81,6 +90,16 @@ public class ItemControllerTest {
         assertEquals("Round Widget", responseItems.get(0).getName());
         assertEquals(new BigDecimal(2.99), responseItems.get(0).getPrice());
         assertEquals("A widget that is round", responseItems.get(0).getDescription());
+    }
+
+    @Test
+    public void find_by_user_name_not_found() {
+        final ResponseEntity<List<Item>> response = itemController.getItemsByName("Absurd Widget");
+        assertNotNull(response);
+        assertEquals(404, response.getStatusCodeValue());
+
+        List<Item> responseItems = response.getBody();
+        assertNull(responseItems);
     }
 
     private List<Item> getItemList() {

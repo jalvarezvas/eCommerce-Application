@@ -1,0 +1,54 @@
+2021-03-28T20:19:09.726+0200 INFO Starting SareetaApplication on DESKTOP-93LS2HQ with PID 4728 (D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code\target\classes started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application)
+2021-03-28T20:19:09.732+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-28T20:19:09.733+0200 INFO No active profile set, falling back to default profiles: default
+2021-03-28T20:19:12.535+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-28T20:19:13.164+0200 INFO Started SareetaApplication in 3.716 seconds (JVM running for 4.56)
+2021-03-28T20:19:24.766+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T20:19:24.766+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T20:19:24.874+0200 INFO UserController - createUser() OK, user name: test
+2021-03-28T20:20:17.378+0200 DEBUG Request is to process authentication
+2021-03-28T20:20:40.803+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-28T20:20:40.805+0200 INFO UserController - findByUserName() OK, user name: test
+2021-03-28T20:21:03.343+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T20:21:03.368+0200 INFO CartController - addTocart() OK, user name: test, item id: 1
+2021-03-28T20:21:16.029+0200 INFO OrderController - submit() invoked with: test
+2021-03-28T20:21:16.035+0200 INFO OrderController - submit() OK
+2021-03-28T20:58:17.542+0200 INFO Starting SareetaApplication on DESKTOP-93LS2HQ with PID 5500 (D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code\target\classes started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application)
+2021-03-28T20:58:17.546+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-28T20:58:17.547+0200 INFO No active profile set, falling back to default profiles: default
+2021-03-28T20:58:22.073+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-28T20:58:22.552+0200 INFO Started SareetaApplication in 5.367 seconds (JVM running for 6.098)
+2021-03-29T19:36:20.936+0200 INFO Starting SareetaApplication on DESKTOP-93LS2HQ with PID 26348 (D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code\target\classes started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application)
+2021-03-29T19:36:20.944+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-29T19:36:20.945+0200 INFO No active profile set, falling back to default profiles: default
+2021-03-29T19:36:23.720+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-03-29T19:36:24.206+0200 INFO Started SareetaApplication in 3.493 seconds (JVM running for 4.258)
+2021-03-29T19:39:22.438+0200 INFO UserController - createUser() invoked with: testuser
+2021-03-29T19:39:22.438+0200 INFO UserController - createUser() User name set with 'testuser'
+2021-03-29T19:39:22.438+0200 ERROR UserController - createUser() KO, Invalid password: apassword
+2021-03-29T19:40:38.399+0200 INFO UserController - createUser() invoked with: testuser
+2021-03-29T19:40:38.399+0200 INFO UserController - createUser() User name set with 'testuser'
+2021-03-29T19:40:38.399+0200 ERROR UserController - createUser() KO, Invalid password: longEnoughPassw
+2021-03-29T19:40:55.645+0200 INFO UserController - createUser() invoked with: testuser
+2021-03-29T19:40:55.645+0200 INFO UserController - createUser() User name set with 'testuser'
+2021-03-29T19:40:55.757+0200 INFO UserController - createUser() OK, user name: testuser
+2021-03-29T19:43:00.364+0200 DEBUG Request is to process authentication
+2021-03-29T19:44:05.395+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-29T19:44:05.396+0200 ERROR UserController - findByUserName() User not found: test
+2021-03-29T19:44:29.366+0200 INFO UserController - findByUserName() invoked with: testuser
+2021-03-29T19:44:29.367+0200 INFO UserController - findByUserName() OK, user name: testuser
+2021-03-29T19:45:41.157+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 2
+2021-03-29T19:45:41.158+0200 ERROR CartController - addToCart() User not found: test
+2021-03-29T19:45:55.647+0200 INFO CartController - addTocart() invoked with: username: testuser, itemId: 1, quantity: 2
+2021-03-29T19:45:55.668+0200 INFO CartController - addTocart() OK, user name: testuser, item id: 1
+2021-03-29T19:47:43.778+0200 INFO OrderController - submit() invoked with: test
+2021-03-29T19:47:43.779+0200 ERROR OrderController - submit() User not found
+2021-03-29T19:48:03.256+0200 INFO OrderController - submit() invoked with: test
+2021-03-29T19:48:03.257+0200 ERROR OrderController - submit() User not found
+2021-03-29T19:48:36.304+0200 INFO OrderController - submit() invoked with: testuser
+2021-03-29T19:48:36.310+0200 INFO OrderController - submit() OK
+2021-04-26T11:50:36.558+0200 INFO Starting SareetaApplication on DESKTOP-93LS2HQ with PID 18620 (D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code\target\classes started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application)
+2021-04-26T11:50:36.563+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-26T11:50:36.564+0200 INFO No active profile set, falling back to default profiles: default
+2021-04-26T11:50:39.757+0200 DEBUG Filter 'JWTAuthenticationVerficationFilter' configured for use
+2021-04-26T11:50:40.638+0200 INFO Started SareetaApplication in 4.36 seconds (JVM running for 5.419)

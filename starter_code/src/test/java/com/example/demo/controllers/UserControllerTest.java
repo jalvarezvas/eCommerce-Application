@@ -2,6 +2,7 @@ package com.example.demo.controllers;
 
 import com.example.demo.TestUtils;
 import com.example.demo.model.persistence.User;
+import com.example.demo.model.persistence.UserOrder;
 import com.example.demo.model.persistence.repositories.CartRepository;
 import com.example.demo.model.persistence.repositories.UserRepository;
 import com.example.demo.model.requests.CreateUserRequest;
@@ -45,6 +46,16 @@ public class UserControllerTest {
     }
 
     @Test
+    public void find_by_id_user_not_found() {
+        final ResponseEntity<User> response = userController.findById(-10L);
+        assertNotNull(response);
+        assertEquals(404, response.getStatusCodeValue());
+
+        User user = response.getBody();
+        assertNull(user);
+    }
+
+    @Test
     public void find_by_user_name_happy_path() {
         when(mockUserRepository.findByUsername("test")).thenReturn(new User(0L, "test", "hashedPassword"));
 
@@ -57,6 +68,16 @@ public class UserControllerTest {
         assertEquals(0, user.getId());
         assertEquals("test", user.getUsername());
         assertEquals("hashedPassword", user.getPassword());
+    }
+
+    @Test
+    public void find_by_user_name_user_not_found() {
+        final ResponseEntity<User> response = userController.findByUserName("testNotFound");
+        assertNotNull(response);
+        assertEquals(404, response.getStatusCodeValue());
+
+        User user = response.getBody();
+        assertNull(user);
     }
 
     @Test

@@ -34,7 +34,7 @@ public class ItemController {
 //        return ResponseEntity.of(itemRepository.findById(id));
         Optional<Item> item = itemRepository.findById(id);
 
-        if (item == null) {
+        if (item.isEmpty()) {
             log.error("ItemController - getItemById() Item not found");
             return ResponseEntity.notFound().build();
         } else {

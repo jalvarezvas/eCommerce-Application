@@ -1,0 +1,189 @@
+2021-03-28T21:00:50.920+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:00:50.958+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:00:50.959+0200 ERROR UserController - createUser() Invalid password: somePassword
+2021-03-28T21:01:15.634+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:01:15.664+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:01:15.665+0200 ERROR UserController - createUser() Invalid password: somePassword
+2021-03-28T21:04:59.320+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:04:59.332+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:05:28.972+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:06:09.373+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:06:09.428+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:06:09.434+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:06:14.940+0200 INFO UserController - findById() invoked with: -10
+2021-03-28T21:07:07.973+0200 INFO UserController - findById() OK, item id: -10
+2021-03-28T21:09:13.122+0200 INFO UserController - findById() invoked with: -10
+2021-03-28T21:09:15.141+0200 ERROR UserController - findById() User not found
+2021-03-28T21:09:49.998+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:09:50.005+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:09:50.019+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:09:50.021+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:09:50.021+0200 INFO UserController - createUser() OK, user name: test
+2021-03-28T21:09:50.022+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:09:50.022+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:09:50.022+0200 ERROR UserController - createUser() Invalid password: somePassword
+2021-03-28T21:09:50.023+0200 INFO UserController - findById() invoked with: -10
+2021-03-28T21:09:50.023+0200 ERROR UserController - findById() User not found
+2021-03-28T21:09:50.023+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-28T21:09:50.024+0200 INFO UserController - findByUserName() OK, user name: test
+2021-03-28T21:11:07.015+0200 INFO UserController - findByUserName() invoked with: testNotFound
+2021-03-28T21:11:07.027+0200 ERROR UserController - findByUserName() User not found: testNotFound
+2021-03-28T21:11:14.393+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:11:14.400+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:11:14.415+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:11:14.416+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:11:14.416+0200 INFO UserController - createUser() OK, user name: test
+2021-03-28T21:11:14.417+0200 INFO UserController - findByUserName() invoked with: testNotFound
+2021-03-28T21:11:14.417+0200 ERROR UserController - findByUserName() User not found: testNotFound
+2021-03-28T21:11:14.418+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:11:14.418+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:11:14.419+0200 ERROR UserController - createUser() Invalid password: somePassword
+2021-03-28T21:11:14.419+0200 INFO UserController - findById() invoked with: -10
+2021-03-28T21:11:14.420+0200 ERROR UserController - findById() User not found
+2021-03-28T21:11:14.420+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-28T21:11:14.420+0200 INFO UserController - findByUserName() OK, user name: test
+2021-03-28T21:15:20.980+0200 INFO ItemController - getItemById() invoked with: id: -10
+2021-03-28T21:15:20.992+0200 ERROR ItemController - getItemById() Item not found
+2021-03-28T21:17:11.120+0200 INFO ItemController - getItemsByName() invoked with: Absurd Widget
+2021-03-28T21:17:11.132+0200 ERROR ItemController - getItemsByName() Items null or empty
+2021-03-28T21:17:33.800+0200 INFO Starting SareetaApplicationTests on DESKTOP-93LS2HQ with PID 32860 (started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code)
+2021-03-28T21:17:33.800+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-28T21:17:33.801+0200 INFO No active profile set, falling back to default profiles: default
+2021-03-28T21:17:37.241+0200 INFO Started SareetaApplicationTests in 3.599 seconds (JVM running for 4.777)
+2021-03-28T21:17:37.453+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.455+0200 ERROR CartController - removeFromCart() Item not found: 1
+2021-03-28T21:17:37.459+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.460+0200 INFO CartController - addTocart() OK, user name: test, item id: 1
+2021-03-28T21:17:37.460+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.461+0200 ERROR CartController - addToCart() User not found: test
+2021-03-28T21:17:37.461+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.462+0200 INFO CartController - removeFromCart() OK, user name: test, item id: 1
+2021-03-28T21:17:37.463+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.463+0200 ERROR CartController - removeFromCart() User not found: test
+2021-03-28T21:17:37.463+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-28T21:17:37.464+0200 ERROR CartController - addToCart() Item not found: 1
+2021-03-28T21:17:37.464+0200 INFO ItemController - getItemById() invoked with: id: 0
+2021-03-28T21:17:37.465+0200 INFO ItemController - getItemById() OK, item id: 0
+2021-03-28T21:17:37.465+0200 INFO ItemController - getItems() invoked
+2021-03-28T21:17:37.466+0200 INFO ItemController - getItemsByName() invoked with: Absurd Widget
+2021-03-28T21:17:37.466+0200 ERROR ItemController - getItemsByName() Items null or empty
+2021-03-28T21:17:37.466+0200 INFO ItemController - getItemById() invoked with: id: -10
+2021-03-28T21:17:37.466+0200 ERROR ItemController - getItemById() Item not found
+2021-03-28T21:17:37.467+0200 INFO ItemController - getItemsByName() invoked with: Square Widget
+2021-03-28T21:17:37.467+0200 INFO ItemController - getItemsByName() OK
+2021-03-28T21:17:37.485+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-03-28T21:17:37.486+0200 ERROR OrderController - getOrdersForUser() User not found
+2021-03-28T21:17:37.488+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-03-28T21:17:37.488+0200 INFO OrderController - getOrdersForUser() OK
+2021-03-28T21:17:37.489+0200 INFO OrderController - submit() invoked with: test
+2021-03-28T21:17:37.489+0200 INFO OrderController - submit() OK
+2021-03-28T21:17:37.490+0200 INFO OrderController - submit() invoked with: test
+2021-03-28T21:17:37.490+0200 ERROR OrderController - submit() User not found
+2021-03-28T21:17:37.499+0200 INFO UserController - findById() invoked with: 0
+2021-03-28T21:17:37.500+0200 INFO UserController - findById() OK, item id: 0
+2021-03-28T21:17:37.501+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:17:37.502+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:17:37.502+0200 INFO UserController - createUser() OK, user name: test
+2021-03-28T21:17:37.502+0200 INFO UserController - findByUserName() invoked with: testNotFound
+2021-03-28T21:17:37.503+0200 ERROR UserController - findByUserName() User not found: testNotFound
+2021-03-28T21:17:37.505+0200 INFO UserController - createUser() invoked with: test
+2021-03-28T21:17:37.505+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-28T21:17:37.505+0200 ERROR UserController - createUser() Invalid password: somePassword
+2021-03-28T21:17:37.505+0200 INFO UserController - findById() invoked with: -10
+2021-03-28T21:17:37.506+0200 ERROR UserController - findById() User not found
+2021-03-28T21:17:37.506+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-28T21:17:37.506+0200 INFO UserController - findByUserName() OK, user name: test
+2021-03-29T19:35:59.680+0200 INFO Starting SareetaApplicationTests on DESKTOP-93LS2HQ with PID 13912 (started by jadva in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code)
+2021-03-29T19:35:59.681+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-03-29T19:35:59.682+0200 INFO No active profile set, falling back to default profiles: default
+2021-03-29T19:36:03.467+0200 INFO Started SareetaApplicationTests in 3.936 seconds (JVM running for 5.597)
+2021-03-29T19:36:03.700+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.703+0200 ERROR CartController - removeFromCart() Item not found: 1
+2021-03-29T19:36:03.708+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.709+0200 INFO CartController - addTocart() OK, user name: test, item id: 1
+2021-03-29T19:36:03.709+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.709+0200 ERROR CartController - addToCart() User not found: test
+2021-03-29T19:36:03.710+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.711+0200 INFO CartController - removeFromCart() OK, user name: test, item id: 1
+2021-03-29T19:36:03.711+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.711+0200 ERROR CartController - removeFromCart() User not found: test
+2021-03-29T19:36:03.712+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-03-29T19:36:03.712+0200 ERROR CartController - addToCart() Item not found: 1
+2021-03-29T19:36:03.713+0200 INFO ItemController - getItemById() invoked with: id: 0
+2021-03-29T19:36:03.713+0200 INFO ItemController - getItemById() OK, item id: 0
+2021-03-29T19:36:03.714+0200 INFO ItemController - getItems() invoked
+2021-03-29T19:36:03.714+0200 INFO ItemController - getItemsByName() invoked with: Absurd Widget
+2021-03-29T19:36:03.715+0200 ERROR ItemController - getItemsByName() Items null or empty
+2021-03-29T19:36:03.715+0200 INFO ItemController - getItemById() invoked with: id: -10
+2021-03-29T19:36:03.716+0200 ERROR ItemController - getItemById() Item not found
+2021-03-29T19:36:03.716+0200 INFO ItemController - getItemsByName() invoked with: Square Widget
+2021-03-29T19:36:03.716+0200 INFO ItemController - getItemsByName() OK
+2021-03-29T19:36:03.735+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-03-29T19:36:03.735+0200 ERROR OrderController - getOrdersForUser() User not found
+2021-03-29T19:36:03.739+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-03-29T19:36:03.739+0200 INFO OrderController - getOrdersForUser() OK
+2021-03-29T19:36:03.740+0200 INFO OrderController - submit() invoked with: test
+2021-03-29T19:36:03.740+0200 INFO OrderController - submit() OK
+2021-03-29T19:36:03.741+0200 INFO OrderController - submit() invoked with: test
+2021-03-29T19:36:03.741+0200 ERROR OrderController - submit() User not found
+2021-03-29T19:36:03.750+0200 INFO UserController - findById() invoked with: 0
+2021-03-29T19:36:03.751+0200 INFO UserController - findById() OK, item id: 0
+2021-03-29T19:36:03.753+0200 INFO UserController - createUser() invoked with: test
+2021-03-29T19:36:03.753+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-29T19:36:03.754+0200 INFO UserController - createUser() OK, user name: test
+2021-03-29T19:36:03.754+0200 INFO UserController - findByUserName() invoked with: testNotFound
+2021-03-29T19:36:03.754+0200 ERROR UserController - findByUserName() User not found: testNotFound
+2021-03-29T19:36:03.754+0200 INFO UserController - createUser() invoked with: test
+2021-03-29T19:36:03.754+0200 INFO UserController - createUser() User name set with 'test'
+2021-03-29T19:36:03.754+0200 ERROR UserController - createUser() KO, Invalid password: somePassword
+2021-03-29T19:36:03.755+0200 INFO UserController - findById() invoked with: -10
+2021-03-29T19:36:03.755+0200 ERROR UserController - findById() User not found
+2021-03-29T19:36:03.755+0200 INFO UserController - findByUserName() invoked with: test
+2021-03-29T19:36:03.755+0200 INFO UserController - findByUserName() OK, user name: test
+2021-04-26T11:55:53.002+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.009+0200 ERROR CartController - removeFromCart() Item not found: 1
+2021-04-26T11:55:53.024+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.025+0200 INFO CartController - addTocart() OK, user name: test, item id: 1
+2021-04-26T11:55:53.026+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.026+0200 ERROR CartController - addToCart() User not found: test
+2021-04-26T11:55:53.027+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.028+0200 INFO CartController - removeFromCart() OK, user name: test, item id: 1
+2021-04-26T11:55:53.029+0200 INFO CartController - removeFromCart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.029+0200 ERROR CartController - removeFromCart() User not found: test
+2021-04-26T11:55:53.029+0200 INFO CartController - addTocart() invoked with: username: test, itemId: 1, quantity: 1
+2021-04-26T11:55:53.030+0200 ERROR CartController - addToCart() Item not found: 1
+2021-04-26T11:55:53.038+0200 INFO ItemController - getItemById() invoked with: id: 0
+2021-04-26T11:55:53.039+0200 INFO ItemController - getItemById() OK, item id: 0
+2021-04-26T11:55:53.040+0200 INFO ItemController - getItems() invoked
+2021-04-26T11:55:53.041+0200 INFO ItemController - getItemsByName() invoked with: Absurd Widget
+2021-04-26T11:55:53.041+0200 ERROR ItemController - getItemsByName() Items null or empty
+2021-04-26T11:55:53.041+0200 INFO ItemController - getItemById() invoked with: id: -10
+2021-04-26T11:55:53.042+0200 ERROR ItemController - getItemById() Item not found
+2021-04-26T11:55:53.042+0200 INFO ItemController - getItemsByName() invoked with: Square Widget
+2021-04-26T11:55:53.043+0200 INFO ItemController - getItemsByName() OK
+2021-04-26T11:55:53.085+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-04-26T11:55:53.086+0200 ERROR OrderController - getOrdersForUser() User not found
+2021-04-26T11:55:53.088+0200 INFO OrderController - getOrdersForUser() invoked with: test
+2021-04-26T11:55:53.088+0200 INFO OrderController - getOrdersForUser() OK
+2021-04-26T11:55:53.089+0200 INFO OrderController - submit() invoked with: test
+2021-04-26T11:55:53.089+0200 INFO OrderController - submit() OK
+2021-04-26T11:55:53.090+0200 INFO OrderController - submit() invoked with: test
+2021-04-26T11:55:53.090+0200 ERROR OrderController - submit() User not found
+2021-04-26T11:55:53.110+0200 INFO UserController - findById() invoked with: 0
+2021-04-26T11:55:53.111+0200 INFO UserController - findById() OK, item id: 0
+2021-04-26T11:55:53.113+0200 INFO UserController - createUser() invoked with: test
+2021-04-26T11:55:53.113+0200 INFO UserController - createUser() User name set with 'test'
+2021-04-26T11:55:53.114+0200 INFO UserController - createUser() OK, user name: test
+2021-04-26T11:55:53.115+0200 INFO UserController - findByUserName() invoked with: testNotFound
+2021-04-26T11:55:53.115+0200 ERROR UserController - findByUserName() User not found: testNotFound
+2021-04-26T11:55:53.116+0200 INFO UserController - createUser() invoked with: test
+2021-04-26T11:55:53.116+0200 INFO UserController - createUser() User name set with 'test'
+2021-04-26T11:55:53.116+0200 ERROR UserController - createUser() KO, Invalid password: somePassword
+2021-04-26T11:55:53.117+0200 INFO UserController - findById() invoked with: -10
+2021-04-26T11:55:53.117+0200 ERROR UserController - findById() User not found
+2021-04-26T11:55:53.118+0200 INFO UserController - findByUserName() invoked with: test
+2021-04-26T11:55:53.118+0200 INFO UserController - findByUserName() OK, user name: test
+2021-04-26T11:55:53.453+0200 INFO Starting SareetaApplicationTests on DESKTOP-93LS2HQ with PID 19904 (started by DESKTOP-93LS2HQ$ in D:\_Jacin\DATOS\cursos\2021-JavaWebDeveloper\05-SecurityAndDevOps\Project\eCommerce-Application\starter_code)
+2021-04-26T11:55:53.454+0200 DEBUG Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2021-04-26T11:55:53.454+0200 INFO No active profile set, falling back to default profiles: default
+2021-04-26T11:55:56.498+0200 INFO Started SareetaApplicationTests in 3.196 seconds (JVM running for 4.55)
